@@ -1,0 +1,22 @@
+//Reverse the digits of a number
+#include<iostream>
+using namespace std;
+int main()
+{
+    
+    int n,rev=0;
+    cout<<"enter your no= ";
+    cin>>n;
+    while(n>0){
+
+        int r=n%10;
+        n/=10;
+        rev*=10;
+        rev+=r;
+    }
+
+    cout<<rev;
+    return 0;
+
+} 
+
