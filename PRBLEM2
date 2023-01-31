@@ -1,0 +1,19 @@
+//Find the sum of digits in a given number no
+#include<iostream>
+using namespace std;
+int main(){
+
+    int n,sum;
+    cout<<"enter your no=";
+    cin>>n;
+
+    while(n>0){
+
+       
+        sum=0;
+        sum=sum+(n%10);
+        n=n/10;
+    }
+    cout<<sum;
+    return 0;
+}
