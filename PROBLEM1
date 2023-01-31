@@ -1,0 +1,19 @@
+//find the how many digits in the given no
+#include<iostream>
+using namespace std;
+int main(){
+
+    int n,d=0;
+    cout<<"enter your no= ";
+    cin>>n;
+   while(n>0)
+   {
+
+    n/=10;
+    d++;
+   }
+
+   cout<<d;
+
+    return 0;
+}
